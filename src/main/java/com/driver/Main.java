@@ -6,3 +6,14 @@ public class Main {
         b.meth();
     }
 }
+class B extends A{
+    @Override
+    public String meth(){
+        return "Method is overridden in Extendend class B";
+    }
+}
+class A {
+    public String meth(){
+        return "Invoking method from class A";
+    }
+}
